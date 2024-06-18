@@ -1,0 +1,67 @@
+#root {
+  text-align: center;
+  
+}
+
+body {
+  background-image: url(./assets/1351901.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+.reslt{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.div-card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+
+
+.main-img {
+  width: 200px;
+  height: 70px;
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
